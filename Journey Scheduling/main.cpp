@@ -40,7 +40,7 @@ ll MINUS(ll x, ll y)
 }
 //========================================================================0========================================================================//
 ll n, m, x, y, v, k;
-ll diameter, dp[2][MAX], best, Poll1, Poll2;
+ll diameter, dp[2][MAX], best, Point1, Point2;
 vector <ll> adj[MAX];
 void input()
 {
@@ -57,7 +57,7 @@ void dfs1(ll u, ll p, ll w)
     if (best < w)
     {
         best = w;
-        Poll1 = u;
+        Point1 = u;
     }
     for (ll v : adj[u])
     {
@@ -70,7 +70,7 @@ void dfs2(ll u, ll p, ll w, ll type)
     if (best < w)
     {
         best = w;
-        Poll2 = u;
+        Point2 = u;
     }
     dp[type][u] = w;
     for (ll v : adj[u])
@@ -83,10 +83,10 @@ void prepare()
 {
     dfs1(1, 1, 0);
     best = 0;
-    dfs2(Poll1, Poll1, 0, 0);
+    dfs2(Point1, Point1, 0, 0);
     diameter = best;
     best = MOD;
-    dfs2(Poll2, Poll2, 0, 1);
+    dfs2(Point2, Point2, 0, 1);
 }
 void solve()
 {
