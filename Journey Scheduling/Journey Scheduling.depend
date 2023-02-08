@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1675873148 source:c:\users\admin\desktop\github\journey scheduling\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
