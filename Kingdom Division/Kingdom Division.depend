@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1669877375 source:c:\users\admin\desktop\code\kingdom division\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
