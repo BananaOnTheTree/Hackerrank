@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1669769807 source:c:\users\admin\desktop\code\synchronous shopping\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
