@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1675959126 source:c:\users\admin\desktop\github\repair roads\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
