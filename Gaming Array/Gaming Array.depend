@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676096031 source:c:\users\admin\desktop\github\gaming array\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
