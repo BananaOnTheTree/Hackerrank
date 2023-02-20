@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676634306 source:c:\users\admin\desktop\github\beautiful strings\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
